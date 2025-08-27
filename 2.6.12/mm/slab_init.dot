@@ -1,0 +1,26 @@
+
+digraph {
+	# 节点从左到右排列
+	rankdir=LR
+
+	# 模块初始化
+	start_kernel -> kmem_cache_init
+		kmem_cache_init -> register_cpu_notifier
+	start_kernel -> rest_init -> kernel_thread -> init
+
+	init -> smp_init
+	init -> do_basic_setup -> do_initcalls -> cpucache_init
+
+	register_cpu_notifier -> cpuup_callback[style=dotted]
+	cpuup_callback -> alloc_arraycache
+
+	slabinfo_write -> do_tune_cpucache
+	kmem_cache_init -> enable_cpucache
+	kmem_cache_create -> enable_cpucache
+		enable_cpucache -> do_tune_cpucache
+	do_tune_cpucache -> alloc_arraycache
+	do_tune_cpucache -> do_ccupdate_local
+
+	smp_init[fillcolor=red, style=filled]
+}
+

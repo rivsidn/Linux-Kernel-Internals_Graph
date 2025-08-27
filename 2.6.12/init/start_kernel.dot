@@ -1,0 +1,11 @@
+
+digraph {
+	# 节点从左到右排列
+	rankdir=LR
+
+	start_kernel -> kmem_cache_init
+	start_kernel -> rest_init
+
+	rest_init -> kernel_thread -> init -> do_basic_setup -> do_initcalls
+}
+
