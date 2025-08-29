@@ -1,5 +1,3 @@
-
-
 digraph {
 	# 节点从左到右排列
 	rankdir=LR
@@ -7,6 +5,5 @@ digraph {
 	kmem_cache_create -> kmem_cache_alloc -> __cache_alloc
 	kmem_cache_create -> cache_estimate
 	kmem_cache_create -> enable_cpucache -> do_tune_cpucache
-
 }
 
