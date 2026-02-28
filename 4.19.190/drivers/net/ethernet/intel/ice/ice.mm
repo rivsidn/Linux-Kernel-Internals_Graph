@@ -63,8 +63,8 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="4" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="ice_napi_poll" POSITION="right" ID="ID_992371544" CREATED="1770359939666" MODIFIED="1770608008678">
+<hook NAME="AutomaticEdgeColor" COUNTER="5" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="ice_napi_poll" FOLDED="true" POSITION="right" ID="ID_992371544" CREATED="1770359939666" MODIFIED="1770608008678">
 <edge COLOR="#00ff00"/>
 <richcontent TYPE="DETAILS" HIDDEN="true">
 
@@ -104,7 +104,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="slab_free" ID="ID_762326970" CREATED="1770625408382" MODIFIED="1770625408382">
 <node TEXT="do_slab_free" ID="ID_1251094695" CREATED="1770625419729" MODIFIED="1770625419729">
@@ -121,7 +120,7 @@
 </node>
 <node TEXT="ice_clean_rx_irq" ID="ID_1901673379" CREATED="1770607562610" MODIFIED="1770607562610"/>
 </node>
-<node TEXT="ice_start_xmit" POSITION="right" ID="ID_180626475" CREATED="1770607910301" MODIFIED="1770608013541">
+<node TEXT="ice_start_xmit" FOLDED="true" POSITION="right" ID="ID_180626475" CREATED="1770607910301" MODIFIED="1770608013541">
 <edge COLOR="#ff00ff"/>
 <richcontent TYPE="DETAILS" HIDDEN="true">
 
@@ -150,6 +149,46 @@
   </body>
 </html>
 </richcontent>
+</node>
+</node>
+</node>
+<node TEXT="ice_vsi_setup" POSITION="right" ID="ID_1475144317" CREATED="1772249327141" MODIFIED="1772249327145">
+<edge COLOR="#00ffff"/>
+<node TEXT="ice_cfg_netdev" ID="ID_106754161" CREATED="1772249337884" MODIFIED="1772249337884">
+<node TEXT="alloc_etherdev_mqs" ID="ID_1771907448" CREATED="1772249347811" MODIFIED="1772249347811">
+<node TEXT="alloc_netdev_mqs" ID="ID_1048112314" CREATED="1772249374291" MODIFIED="1772249374291">
+<node TEXT="netif_alloc_netdev_queues" ID="ID_932872482" CREATED="1772249546391" MODIFIED="1772249600216"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#30003;&#35831;&#21457;&#36865;&#38431;&#21015;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="netdev_for_each_tx_queue" ID="ID_1520995593" CREATED="1772249611315" MODIFIED="1772249611315"/>
+</node>
+<node TEXT="netif_alloc_rx_queues" ID="ID_582754451" CREATED="1772249551504" MODIFIED="1772249638005"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#30003;&#35831;&#25509;&#25910;&#38431;&#21015;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>
