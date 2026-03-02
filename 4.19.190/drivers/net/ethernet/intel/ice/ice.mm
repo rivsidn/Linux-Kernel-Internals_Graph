@@ -169,7 +169,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="netdev_for_each_tx_queue" ID="ID_1520995593" CREATED="1772249611315" MODIFIED="1772249611315"/>
 </node>
@@ -185,7 +184,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>

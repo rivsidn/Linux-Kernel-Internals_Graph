@@ -90,6 +90,7 @@
   </dia:diagramdata>
   <dia:layer name="Background" visible="true" connectable="true"/>
   <dia:layer name="Background" visible="true" connectable="true"/>
+  <dia:layer name="Background" visible="true" connectable="true"/>
   <dia:layer name="Background" visible="true" connectable="true" active="true">
     <dia:object type="UML - Class" version="0" id="O0">
       <dia:attribute name="obj_pos">
@@ -2005,13 +2006,13 @@
     </dia:object>
     <dia:object type="UML - Class" version="0" id="O11">
       <dia:attribute name="obj_pos">
-        <dia:point val="50.14,43.275"/>
+        <dia:point val="50.09,43.275"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="50.09,43.225;59.93,49.325"/>
+        <dia:rectangle val="50.04,43.225;59.88,49.325"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="50.14,43.275"/>
+        <dia:point val="50.09,43.275"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="9.7400000000000002"/>
@@ -2214,13 +2215,13 @@
         <dia:point val="40.205,49.225"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="40.155,44.0132;50.14,49.275"/>
+        <dia:rectangle val="40.155,44.0132;50.09,49.275"/>
       </dia:attribute>
       <dia:attribute name="bez_points">
         <dia:point val="40.205,49.225"/>
         <dia:point val="43.5034,49.225"/>
-        <dia:point val="46.8416,44.375"/>
-        <dia:point val="50.14,44.375"/>
+        <dia:point val="46.7916,44.375"/>
+        <dia:point val="50.09,44.375"/>
       </dia:attribute>
       <dia:attribute name="corner_types">
         <dia:enum val="0"/>
@@ -2245,13 +2246,13 @@
     </dia:object>
     <dia:object type="UML - Class" version="0" id="O13">
       <dia:attribute name="obj_pos">
-        <dia:point val="40.89,20.575"/>
+        <dia:point val="40.94,20.625"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="40.84,20.525;53.375,33.825"/>
+        <dia:rectangle val="40.89,20.575;53.425,33.875"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="40.89,20.575"/>
+        <dia:point val="40.94,20.625"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="12.434999999999999"/>
