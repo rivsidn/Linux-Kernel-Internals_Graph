@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="ice" FOLDED="false" ID="ID_143407627" CREATED="1770359887475" MODIFIED="1770359895345" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.61">
+<hook NAME="MapStyle" zoom="1.464">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
@@ -79,7 +79,32 @@
 </node>
 </node>
 <node TEXT="__dev_xmit_skb" ID="ID_418678182" CREATED="1772614971992" MODIFIED="1772614971992">
-<node TEXT="__qdisc_run" ID="ID_1302416574" CREATED="1772614990864" MODIFIED="1772614990864"/>
+<node TEXT="q-&gt;enqueue" ID="ID_719511011" CREATED="1772679870960" MODIFIED="1772679878515"/>
+<node TEXT="qdisc_run" ID="ID_756617567" CREATED="1772679865489" MODIFIED="1772680014600"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36816;&#34892;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="__qdisc_run" ID="ID_1302416574" CREATED="1772614990864" MODIFIED="1772614990864">
+<node TEXT="qdisc_restart" FOLDED="true" ID="ID_265943863" CREATED="1772674987637" MODIFIED="1772674987637">
+<node TEXT="sch_direct_xmit" ID="ID_1857141870" CREATED="1772674999508" MODIFIED="1772674999508">
+<node TEXT="dev_hard_start_xmit" ID="ID_303527962" CREATED="1772675016722" MODIFIED="1772675016722">
+<node TEXT="xmit_one" ID="ID_700443808" CREATED="1772675031767" MODIFIED="1772675031767">
+<node TEXT="netdev_start_xmit" ID="ID_431818942" CREATED="1772675041150" MODIFIED="1772675041150">
+<node TEXT="__netdev_start_xmit" ID="ID_1088190670" CREATED="1772675055969" MODIFIED="1772675055969">
+<node TEXT="ops-&gt;ndo_start_xmit" ID="ID_1540760586" CREATED="1772675065309" MODIFIED="1772675065309">
+<node TEXT="ice_start_xmit" ID="ID_205855364" CREATED="1772695626038" MODIFIED="1772695626038">
+<node TEXT="ice_xmit_frame_ring" ID="ID_1738836460" CREATED="1772695641227" MODIFIED="1772695641227">
+<node TEXT="ice_tx_map" ID="ID_1874545131" CREATED="1772695683327" MODIFIED="1772695683327"/>
 </node>
 </node>
 </node>
@@ -88,7 +113,34 @@
 </node>
 </node>
 </node>
-<node TEXT="ice_napi_poll" FOLDED="true" POSITION="right" ID="ID_992371544" CREATED="1770359939666" MODIFIED="1770608008678">
+</node>
+<node TEXT="__netif_schedule" ID="ID_276842204" CREATED="1772675091721" MODIFIED="1772679999716"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#37325;&#26032;&#35843;&#24230;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="__netif_reschedule" ID="ID_813586506" CREATED="1772675328356" MODIFIED="1772675328356"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="ice_napi_poll" POSITION="right" ID="ID_992371544" CREATED="1770359939666" MODIFIED="1770608008678">
 <edge COLOR="#00ff00"/>
 <richcontent TYPE="DETAILS" HIDDEN="true">
 
